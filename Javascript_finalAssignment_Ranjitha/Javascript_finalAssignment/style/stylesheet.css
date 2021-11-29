@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+body{
+    
+    box-sizing: border-box;
+    width: 100%;
+    border: 100px solid black;
+    float: left;
+    align-content: center;
+    align-items: center;
+}
+form{
+    margin: 0 auto;
+    width: 600px;
+
+}
+#button{
+    text-align: center;
+}
+   

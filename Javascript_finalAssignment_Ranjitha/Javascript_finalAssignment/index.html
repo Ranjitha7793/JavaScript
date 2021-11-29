@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script/Script1.js"></script>
+    <link rel="stylesheet" href="style/stylesheet.css">
+    
+    
+</head>
+<body>
+    <h1 class="start">Submit your Application</h1><br><br>
+    <h3>Personal Information</h3>
+    <form  onclick="fn1()"> 
+    <div id="Id1">
+        <label > Name as per ID proof*</label>
+        <input type="text" name="Name">
+        <label >Father's name*</label>
+        <input type="text" name="Father's Name" >      
+    </div>
+    <label id="name" style="color:red;visibility: hidden;">Your field is empty </label><br><br>
+    </form>
+
+    <form  ondblclick="fn2()">
+        <div id="Id2">
+            <label >Email*</label>
+            <input type="text" name="Email" ondblclick="fn2()">    
+    
+        </div>
+        <label id="Email" style="color: seagreen;visibility: hidden;">invalid</label>
+     </form>
+
+     <form  ondblclick="func()"> 
+        <div id="Id4">
+            <label >MobileNumber*</label>
+            <input type="text" name="MobileNumber" >      
+        </div>
+        <label id="number" style="color:red;visibility: hidden;">Your field is empty </label><br><br>
+        </form>
+
+
+    <form name="Form" onclick="fn3()">
+    <div id="Details2">
+    <p>dob:<input type ="text" size="25" name="DOB" /></p>
+
+  
+
+    <h4>current Address</h4>
+    <p>Address1: <input type="text" size="25" name="Address" placeholder="Address1" /></p>
+    <p>Address2: <input type="text" size="25" name="Address" placeholder="Address2" /></p>
+    <h4>Permanent Address</h4>
+    <p>Address1: <input type="text" size="25" name="Address" placeholder="Address1" /></p>
+    <p>Address2: <input type="text" size="25" name="Address" placeholder="Address2"/></p>
+    
+
+      <div>
+        <br><lable>City</lable><br><br>
+        <select name="city" multiple size="6"><br>
+            <option value="TamilNadu">TamilNadu</option><br><br>
+            <option value="AndraPradesh">AndraPradesh</option><br><br>
+            <option value="Kerala">Kerala</option><br><br>
+
+     </div>
+
+    <div id="upload Photo"></div><br><br>
+        <form action="/action_page.php"><br>
+        <input type= "file" id="myfile" name="filename"><br>
+       
+        </form>
+     </div>
+     </div>
+
+
+     </form>
+
+
+     <button  id="button" type="submit">submit </button>
+</body>
+</html>
